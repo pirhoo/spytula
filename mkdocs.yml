@@ -14,8 +14,14 @@ theme:
         name: "Switch to light theme"
   features:
     - content.tabs.link
-    - content.code.annotate
     - announce.dismiss
+    - content.code.copy
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
   icon:
     logo: material/chef-hat
   favicon:
