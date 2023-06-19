@@ -46,4 +46,6 @@ jobs:
 
       - name: Run the tests with pytest
         run: poetry run pytest
+        env:
+          PYTHONPATH: .
 
