@@ -26,5 +26,5 @@ $(SEMVERS):
 		poetry version $@
 		$(MAKE) tag_version
 
-distribute:
+publish:
 		poetry publish --build 
