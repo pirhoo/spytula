@@ -1,10 +1,19 @@
 [tool.poetry]
 name = "spytula"
 version = "0.0.0"
-description = ""
-authors = ["ICIJ <engineering@icij.org>"]
+description = "A Python library that provides a simple and convenient way to build JSON and YAML data structures using a builder pattern."
+authors = ["Pierre Romera <hello@pirhoo.com>"]
 readme = "README.md"
 packages = [{include = "spytula"}]
+license = "MIT"
+documentation = "https://pirhoo.github.io/spytula/"
+repository = "https://github.com/pirhoo/spytula/"
+keywords = ["JSON", "YAML", "DSL"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: File Formats :: JSON"
+]
 
 [tool.poetry.dependencies]
 python = '^3.8.1'
