@@ -52,4 +52,4 @@ By contributing to the Spytula project, you agree that your contributions will b
 
 ## Code of Conduct
 
-We expect all contributors to follow the [Code of Conduct](https://github.com/pirhoo/spytula/blob/main/CODE_OF_CONDUCT.md) when participating in the Spytula community.
+We expect all contributors to follow the [Code of Conduct](https://github.com/pirhoo/spytula/blob/main/CODE_OF_CONDUCT.md) when contributing to Spytula.
