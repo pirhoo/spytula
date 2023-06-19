@@ -1,6 +1,6 @@
-# API Documentation
+# API Reference
 
-Welcome to the API documentation for Spytula. This section provides detailed information about the classes, methods, and attributes available in the Spytula library.
+Welcome to the API reference for Spytula. This section provides detailed information about the classes, methods, and attributes available in the Spytula library.
 
 ## SpytulaBuilder
 
