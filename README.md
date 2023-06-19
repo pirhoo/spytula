@@ -1,4 +1,4 @@
-# Spytula
+# 👩‍🍳 Spytula
 
 Spytula is a Python library that provides a simple and convenient way to build JSON and YAML data structures using a builder pattern.
 
@@ -67,3 +67,7 @@ This will output:
 ```
 
 In this example, we create a `SpytulaBuilder` instance and add attributes like name and origin to represent `Ramen`. We use the `nodes()` context manager to create a list of ingredients and add them to the JSON structure. Optional attributes like spiciness and toppings are added conditionally using the `when()` method. Finally, we convert the JSON structure to a JSON-formatted string using `to_json()` with an indentation of 4 spaces.
+
+## Documentation
+
+Refer for the [documentation](https://pirhoo.github.io/spytula/) for more details.
