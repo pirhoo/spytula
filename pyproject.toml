@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "spytula"
-version = "0.0.0"
+version = "0.0.1"
 description = "A Python library that provides a simple and convenient way to build JSON and YAML data structures using a builder pattern."
 authors = ["Pierre Romera <hello@pirhoo.com>"]
 readme = "README.md"
