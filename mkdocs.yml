@@ -1,4 +1,9 @@
 site_name: Spytula
+site_description: >- 
+  Spytula is a Python library that provides a simple and convenient way to build JSON and 
+  YAML data structures using a builder pattern.
+repo_name: pirhoo/spytula
+repo_url: https://github.com/pirhoo/spytula
 theme:
   name: material
   palette:
@@ -32,12 +37,27 @@ nav:
   - API Reference: api.md
   - Usage: usage.md
   - Contributing: contributing.md
+extra:
+  social:
+    - icon: simple-github
+      link: https://github.com/pirhoo/spytula
+    - icon: simple-python
+      link: https://pypi.org/project/spytula/
+    - icon: simple-twitter
+      link: https://twitter.com/pirhoo
+    - icon: simple-mastodon
+      link: https://mastodon.social/@pirhoo
 plugins:
   - search
+  - autolinks
+  - minify:
+      minify_html: true
   - exclude:
       glob:
       - __pycache__/*
   - mkdocstrings:
+      watch:
+        - spytula
       handlers:
         python:
           paths: [.]

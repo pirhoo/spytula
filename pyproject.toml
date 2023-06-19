@@ -29,6 +29,8 @@ mkdocs-material = "^9.1.16"
 mkdocstrings-python = "^1.1.2"
 mkdocstrings = "^0.22.0"
 mkdocs-exclude = "^1.0.2"
+mkdocs-minify-plugin = "^0.6.4"
+mkdocs-autolinks-plugin = "^0.7.0"
 
 [build-system]
 requires = ["poetry-core"]
