@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "spytula"
+version = "0.0.0"
+description = ""
+authors = ["ICIJ <engineering@icij.org>"]
+readme = "README.md"
+packages = [{include = "spytula"}]
+
+[tool.poetry.dependencies]
+python = '^3.8.1'
+pytest = "^7.3.2"
+pyyaml = "^6.0"
+inflection = "^0.5.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+pytest-mock = "^3.11.1"
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.16"
+mkdocstrings-python = "^1.1.2"
+mkdocstrings = "^0.22.0"
+mkdocs-exclude = "^1.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
