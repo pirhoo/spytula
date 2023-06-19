@@ -1,0 +1,42 @@
+[data-md-color-scheme="spytula-light"] {
+  color-scheme: light;
+  
+  --md-accent-fg-color: #ae6dbe;
+
+  --md-primary-fg-color: #533C59;
+  --md-default-fg-color--light: #818C83;
+  --md-primary-fg-color--dark: #201B26;
+
+  --md-default-bg-color: #fff;
+
+  --md-typeset-color: #201B26;
+  --md-typeset-a-color: #533C59;
+}
+
+[data-md-color-scheme="spytula-dark"] {
+  color-scheme: dark;
+
+  --md-accent-fg-color: #ae6dbe;
+
+  --md-primary-fg-color: #533C59;
+  --md-primary-fg-color--dark: #201B26;
+  
+  --md-default-fg-color--light: #fff;
+  --md-default-bg-color: #201B26;
+  
+  --md-typeset-color: #FFF;
+  --md-typeset-a-color: #D9D9D9;
+  --md-typeset-table-color: #533C59;
+  
+  --md-code-bg-color: #120e18;
+  --md-code-hl-comment-color: #818C83;
+  --md-code-hl-color: #fff;
+  --md-code-fg-color: #fff;
+  --md-code-hl-name-color: #fff;
+  --md-code-hl-operator-color: #fff;
+  --md-code-hl-punctuation-color: #fff;
+
+
+  --md-admonition-fg-color: #fff;
+  --md-admonition-bg-color: #201B26;
+}

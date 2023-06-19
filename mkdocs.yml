@@ -3,16 +3,12 @@ theme:
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep orange
-      accent: amber
+      scheme: spytula-light
       toggle:
         icon: octicons/moon-16
         name: "Switch to dark theme"
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep orange
-      accent: amber
+      scheme: spytula-dark
       toggle:
         icon: octicons/sun-16
         name: "Switch to light theme"
@@ -23,6 +19,8 @@ theme:
   icon:
     logo: material/chef-hat
   favicon:
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Home: index.md
   - API Reference: api.md
