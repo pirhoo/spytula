@@ -48,12 +48,12 @@ print(json_output)
 
 The documentation is generated from the docstrings in the code using the `mkdocstrings` plugin. It provides detailed information about the classes, methods, and attributes in the Spytula library.
 
-You can explore the [API Documentation](api/) for more information.
+You can explore the [API Documentation](api.md) for more information.
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/your/repo).
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/pirhoo/spytula). If you're willing to help, check the page about [how to contribute](contributing.md) to this project.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/pirhoo/spytula/blob/main/LICENSE.md) file for more details.
