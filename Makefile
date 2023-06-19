@@ -28,3 +28,6 @@ $(SEMVERS):
 
 publish:
 		poetry publish --build 
+
+publish_doc:
+		poetry run mkdocs gh-deploy
